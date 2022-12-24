@@ -2,8 +2,9 @@
 
 https://github.com/KennethJHan/GenomeAnalysisTutorial     # 도움받은 생물정보학 Github Repository
 
-![image](https://user-images.githubusercontent.com/69448218/209337015-c65e110b-b02e-4b25-b8ad-2f01db56dc3f.png)
+https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkumPrC     # 도움받은 유전체 분석 유튜브 강의
 
-git clone 명령어로 GenomeAnalysisTutorial을 다운받는다.
+상기의 유튜브 강의 링크로 11개의 목차를 마쳤다.
 
-다운받은 후 tool 디렉터리 생성 후
+유전체 분석 도서를 찾아보다가 바이오 파이썬으로 만나는 생물정보학 도서를 알게되어 구매했다.
+
