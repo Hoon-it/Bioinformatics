@@ -10,3 +10,4 @@ https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkum
 
 ![image](https://user-images.githubusercontent.com/69448218/209437035-0264a8ce-9f06-413b-9f89-de35d1d518a1.png)
 
+시작해보자
