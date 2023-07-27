@@ -18,10 +18,10 @@ BAM 파일 보는 명령어
 
 samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어를 실행하면
 
-![bam 파일](https://github.com/Hoon-it/Bioinformatics/assets/69448218/4dffe7ba-756d-4d3d-b345-088106d2a85e)
+![bam 파일](https://github.com/Hoon-it/Bioinformatics/assets/69448218/2a81c931-2812-4b27-9811-5b7cce15b8c6)
 
 상기의 화면이 보이고 shift + ? 를 누르면 추가적인 명령어를 볼 수 있다. 그리고 /를 누르면
 
-![원하는 크로모좀 위치](https://github.com/Hoon-it/Bioinformatics/assets/69448218/73c40a68-3363-40cc-a323-42bcfb0aa559)
+![원하는 크로모좀 위치](https://github.com/Hoon-it/Bioinformatics/assets/69448218/b6502d1b-04a6-4c72-9f2c-ac117e13ed89)
 
 원하는 크로모좀 몇번의 어느위치로 이동할 수 있다.
