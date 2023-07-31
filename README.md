@@ -25,3 +25,13 @@ samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어�
 ![원하는 크로모좀 위치](https://github.com/Hoon-it/Bioinformatics/assets/69448218/b6502d1b-04a6-4c72-9f2c-ac117e13ed89)
 
 원하는 크로모좀 몇번의 어느위치로 이동할 수 있다.
+
+fastq.gz 파일 보는 방법
+ex : zless sample_1.fastq.gz 명령어로 볼 수 있다.
+
+상기의 명령어를 입력하면 아래와 같이 파일이 열린다
+
+![zless명령어v2](https://github.com/Hoon-it/Bioinformatics/assets/69448218/5a3d6a4c-52fc-4056-b158-c6fa2aa6aa00)
+
+네개의 줄이 하나의 리드로 작성되어 있다
+1번째는 헤더, 2번째 줄은 서열, 3번째는 구분자 역할, 4번째는 서열에 대한 퀄리티 점수
