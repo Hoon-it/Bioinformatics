@@ -68,3 +68,6 @@ $BWA2 mem -t 1 -R "@RG\tID:sample\tSM:sample\tPL:platform" ../resource/reference
 sam파일을 bam파일로 바꾸는 명령어
 
 $SAMTOOLS view -Sb sample.mapped.sam > sample.mapped.bam
+
+#sam은 텍스트파일이고, bam은 압축해서 바이너리 형태로 만든 파일이다 압축을 하는 이유 실습파일은 파일 용량이 적지만 실제 업무에서나 연구에서 사용하는 파일은
+기하급수적으로 용량이 커져서 단순히 sam으로는 사용할 수 없어서 bam으로 바꾼다.
