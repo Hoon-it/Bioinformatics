@@ -29,6 +29,7 @@ samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어�
 fastq.gz의 전체 라인 개수 확인 방법
 
 [root@LdapClient data]# zcat [sample_1.fastq.gz] | wc -l
+
 328476
 
 전체 라인 개수에서 나누기 4를 하면 리드 개수를 알 수 있다.
