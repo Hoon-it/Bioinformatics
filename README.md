@@ -28,7 +28,8 @@ samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어�
 
 fastq.gz 파일 보는 방법
 
-'''bash
+'''
+bash
 zless -S sample_1.fastq.gz
 '''
 
