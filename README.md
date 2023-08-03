@@ -59,7 +59,8 @@ $BWA2 index hg38.chr21.fa 명령어를 실행한다.  #시간이 조금 걸리�
 
 ![인덱스 파일 생성 후](https://github.com/Hoon-it/Bioinformatics/assets/69448218/f35b8c32-f24a-4ca3-92ce-13d80b0f12cf)
 
-생성되었으면 레퍼런스 서열에 리드를 매핑하는 작업을 한다
+생성되었으면 레퍼런스 서열에 리드를 매핑하는 작업을 한다.
+
 $BWA2 mem -t 1 -R "@RG\tID:sample\tSM:sample\tPL:platform" ../resource/reference/hg38.chr21.fa sample_1.fastq.gz sample_2.fastq.gz > sample.mapped.sam
 
 ![$BWA@ mem -t 명령어 입력 후](https://github.com/Hoon-it/Bioinformatics/assets/69448218/9657f40c-9e80-4c95-b7a3-83fc2b312849)
