@@ -27,8 +27,9 @@ samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어�
 원하는 크로모좀 몇번의 어느위치로 이동할 수 있다.
 
 fastq.gz 파일 보는 방법
-ex : zless sample_1.fastq.gz 명령어로 볼 수 있다.
-
+'''
+  zless sample_1.fastq.gz
+'''
 상기의 명령어를 입력하면 아래와 같이 파일이 열린다
 
 ![zless명령어v2](https://github.com/Hoon-it/Bioinformatics/assets/69448218/5a3d6a4c-52fc-4056-b158-c6fa2aa6aa00)
