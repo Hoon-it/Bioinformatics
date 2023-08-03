@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkum
 시작해보자
 
 BAM 파일 보는 명령어
-
+-
 ![bam파일 보는 명령어v2](https://github.com/Hoon-it/Bioinformatics/assets/69448218/e3120440-31c1-4a20-ab77-c21c4e67e17d)
 
 samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어를 실행하면
