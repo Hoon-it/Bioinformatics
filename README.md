@@ -56,6 +56,7 @@ hg38.chr21.fa이 있는 경로에 가서
 $BWA2 index hg38.chr21.fa 명령어를 실행한다.  #시간이 조금 걸리고 RAM이 2GB 안되는 용량이 필요하다...
 
 상기의 명령어를 입력하면 [hg38.chr21.fa.bwt.8bit.32]와 같은 파일이 생성된다.
+![인덱스 파일 생성 후](https://github.com/Hoon-it/Bioinformatics/assets/69448218/f35b8c32-f24a-4ca3-92ce-13d80b0f12cf)
 
-레퍼런스 서열에 리드를 매핑하는 작업
+생성되었으면 레퍼런스 서열에 리드를 매핑하는 작업을 한다
 ![$BWA@ mem -t 명령어 입력 후](https://github.com/Hoon-it/Bioinformatics/assets/69448218/9657f40c-9e80-4c95-b7a3-83fc2b312849)
