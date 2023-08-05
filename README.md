@@ -60,6 +60,12 @@ tar 파일이기에 tar xvf로 압축해제한다. [tar xvf samtools-1.18.tar.bz
 
 BAM 파일 보는 명령어
 -
+아래의 명령어로 bam파일과 bam.index 파일을 다운받는다.
+
+wget https://github.com/KennethJHan/Genome-Analysis-Tutorial/raw/master/result/SRR000982.mapped.sorted.markdup.bam
+
+wget https://github.com/KennethJHan/Genome-Analysis-Tutorial/raw/master/result/SRR000982.mapped.sorted.markdup.bam.bai
+
 ![bam파일 보는 명령어v2](https://github.com/Hoon-it/Bioinformatics/assets/69448218/e3120440-31c1-4a20-ab77-c21c4e67e17d)
 
 samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어를 실행하면
