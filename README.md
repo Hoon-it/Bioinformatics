@@ -72,11 +72,11 @@ samtools를 설치한 뒤 samtools tview SRR000982.mapped.sorted.bam 명령어�
 
 ![bam 파일](https://github.com/Hoon-it/Bioinformatics/assets/69448218/2a81c931-2812-4b27-9811-5b7cce15b8c6)
 
-상기의 화면이 보이고 shift + ? 를 누르면 추가적인 명령어를 볼 수 있다. 그리고 /를 누르면
+상기의 이미지에서 리드가 쌓여 있는 보이고 shift + ? 를 누르면 추가적인 명령어를 볼 수 있다. 그리고 /를 누르면
 
 ![원하는 크로모좀 위치](https://github.com/Hoon-it/Bioinformatics/assets/69448218/b6502d1b-04a6-4c72-9f2c-ac117e13ed89)
 
-원하는 크로모좀 몇번의 어느위치로 이동할 수 있다.
+원하는 크로모좀 몇번의 어느위치로 이동할 수 있다. [Goto: chr1:111]
 
 fastq.gz의 전체 라인 개수 확인 방법
 
