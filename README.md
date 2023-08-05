@@ -12,6 +12,51 @@ https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkum
 
 시작해보자
 
+준비하기
+-
+필요한 데이터는 git clone 명령어로 아래의 git Repository에서 다운로드 받는다
+
+git clone https://github.com/KennethJHan/GenomeAnalysisTutorial.git
+
+/GenomeAnalysisTutorial/resource/reference 경로에 들어가서 gz압축파일을 푼다
+
+gunzip hg38.chr21.fa.bwt.2bit.64.gz
+
+Tool 설치
+-
+1. BWA2
+mkdir명령어로 tool 디렉터리를 생성하고, BWA tool을 설치한다
+
+mkdir tool -> curl -L https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.0pre2/bwa-mem2-2.0pre2_x64-linux.tar.bz2  | tar jxf -
+
+설치 후 ./bwa-mem2 명령어로 확인한다.
+
+![bwa-mem2 설치 후 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/d1b787a8-2868-410b-89e4-f77d09b20b9e)
+
+2. samtools 설치
+
+구글에 samtools를 검색하고 보이는 첫번째 링크를 클릭하고 우측 상단에 다운로드 클릭하면 보이는 Downloads를 클릭한다
+
+클릭 후 보이는 Download current source releases: 에서 samtools-1.18 초록색 버튼을 우클릭후 링크 주소 복사를 클릭한다.
+
+그리고 복사된 주소 링크를 리눅스 터미널 창에 붙여넣기한다.  #붙여넣기 하기 전에 which 명령어로 samtools가 설치되어 있는지 확인한다. [which samtools] 아무런 반응이 없으면 설치되어 있지 않은 것이다.
+
+wget https://github.com/samtools/samtools/releases/download/1.18/samtools-1.18.tar.bz2    #해당 명령어로 samtools를 다운로드 받고 ll명령어로 확인한다.
+
+tar 파일이기에 tar xvf로 압축해제한다. [tar xvf samtools-1.18.tar.bz2] 압축해제 후 ll명령어로 다시 확인하다.
+
+압축해제 후 samtools 폴더에 들어가서 ./configure 명령어로 잘 설치되었는지 확인한다.
+
+![samtools configure 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/14b5bee8-e1e9-4275-bdf3-4068e71c6da9)
+
+추가로 make -> make install 명령어 순서로 설치를 진행한다.
+
+![make 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/352293af-6def-48e0-be7a-04c961edf682)
+
+설치 마무리 후 which samtools 명령어를 입력하면 설치된 위치를 알 수 있고, samtools 명령어를 실행하면 아래의 이미지와 같이 Program, Version, Usage...가 나오면 마무리 된것이다.
+
+![samtools 설치 마무리 후 확인 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/d2ba0ad7-3a56-4ef8-ad0d-6e9bbc48725e)
+
 BAM 파일 보는 명령어
 -
 ![bam파일 보는 명령어v2](https://github.com/Hoon-it/Bioinformatics/assets/69448218/e3120440-31c1-4a20-ab77-c21c4e67e17d)
