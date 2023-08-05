@@ -2,7 +2,9 @@
 
 https://github.com/KennethJHan/GenomeAnalysisTutorial     #생물정보학 Github Repository
 
-https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkumPrC #유전체 분석 유튜브 강의
+#유전체 분석 유튜브 강의
+
+https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkumPrC
 
 유튜브 강의를 통해 11개의 목차를 마쳤다.
 
