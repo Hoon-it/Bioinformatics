@@ -137,3 +137,11 @@ $SAMTOOLS view -h sample.mapped.bam | less -S
 Samtools Command
 -
 ![samtools 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/35d2160d-bc77-4cd5-8c79-bca8968be40e)
+
+Duplication Marking
+-
+fixmate
+
+sort
+
+markdup
