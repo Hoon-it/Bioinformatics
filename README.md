@@ -138,10 +138,43 @@ Samtools Command
 -
 ![samtools 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/35d2160d-bc77-4cd5-8c79-bca8968be40e)
 
-Duplication Marking
+Duplication Marking 순서
 -
-fixmate
+fixmate -> sort -> markdup
 
-sort
+$SAMTOOLS fixmate -m sample.mapped.bam sample.fixmate.bam
 
-markdup
+$SAMTOOLS sort -o sample.fixmate.sorted.bam sample.fixmate.bam
+
+$SAMTOOLS markdup sample.fixmate.sorted.bam sample.markdup.bam
+
+![fix-sort-markup](https://github.com/Hoon-it/Bioinformatics/assets/69448218/8bb60c57-4df2-4ad2-94a3-3403e4247494)
+총 3단계를 거치면 duplication을 마킹한 bam이 나온다.
+
+실제로 bam에 duplication 마킹되었는지 확인하는 방법
+
+$SAMTOOLS view -h sample.markdup.bam | less -S
+
+@HD, @SQ, @RG : 헤더      SRR1518~.1609941 : 리드  .1609941 : 리드      리드이름 우측 숫자(SAM flag) : 129,65,81...
+
+SAM flag 홈페이지에 접속해서 숫자를 입력하면 리드에 대한 정보를 알 수 있다.
+
+$SAMTOOLS view -h -f 1024 sample.markdup.bam | less -S      #-f [1024] 옵션 : 해당 플래그 번호를 포함한 정보를 보고 싶을때 사용하는 옵션
+
+$SAMTOOLS view -h -F 1024 sample.markdup.bam | less -S      #-F [1024] 옵션 : 해당 플래그 번호를 포함하지 않은 정보를 보고 싶을때 사용하는 옵션
+
+$SAMTOOLS view -h sample.markdup.bam | less -S      #-h 옵션 : 헤더와 리드가 같이 나온다
+
+$SAMTOOLS view -H sample.markdup.bam | less -S      #-H : 헤더만 나온다
+
+$SAMTOOLS view sample.markdup.bam | less -S      # 옵션이 없으면 리드만 나온다
+
+$SAMTOOLS view sample.markdup.bam | wc -l      #전체 라인 개수(전체 리드 개수)가 나온다
+
+$SAMTOOLS view -f 1024 sample.markdup.bam | wc -l      #duplicate가 있는 라인이 출력
+
+markdup.bam index 파일 생성
+-
+$SAMTOOLS index sample.markdup.bam
+
+tview 옵션 : 리드가 쌓인것을 볼 수 있게 해주는 옵션
