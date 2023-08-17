@@ -29,11 +29,12 @@ Tool 설치
 
 1. BWA2
 
-'''python
-
-print("hello")
-
-'''
+<pre><code>
+int main(void){
+	printf("Hello World!!");
+	return 0;
+}
+</code></pre>
 
 mkdir명령어로 tool 디렉터리를 생성하고, BWA tool을 설치한다
 
