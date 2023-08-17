@@ -29,13 +29,6 @@ Tool 설치
 
 1. BWA2
 
-<pre><code>
-int main(void){
-	printf("Hello World!!");
-	return 0;
-}
-</code></pre>
-
 mkdir명령어로 tool 디렉터리를 생성하고, BWA tool을 설치한다
 
 <pre><code>
@@ -53,11 +46,27 @@ curl -L https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.0pre2/bwa-mem2
 
 클릭 후 보이는 Download current source releases: 에서 samtools-1.18 초록색 버튼을 우클릭후 링크 주소 복사를 클릭한다.
 
-그리고 복사된 주소 링크를 리눅스 터미널 창에 붙여넣기한다.  #붙여넣기 하기 전에 which 명령어로 samtools가 설치되어 있는지 확인한다. [which samtools] 아무런 반응이 없으면 설치되어 있지 않은 것이다.
+그리고 복사된 주소 링크를 리눅스 터미널 창에 붙여넣기한다.  #붙여넣기 하기 전에 which 명령어로 samtools가 설치되어 있는지 확인한다.
 
-wget https://github.com/samtools/samtools/releases/download/1.18/samtools-1.18.tar.bz2    #해당 명령어로 samtools를 다운로드 받고 ll명령어로 확인한다.
+<pre><code>
+which samtools
+</code></pre>
 
-tar 파일이기에 tar xvf로 압축해제한다. [tar xvf samtools-1.18.tar.bz2] 압축해제 후 ll명령어로 다시 확인하다.
+아무런 반응이 없으면 설치되어 있지 않은 것이다.
+
+<pre><code>
+wget https://github.com/samtools/samtools/releases/download/1.18/samtools-1.18.tar.bz2
+</code></pre>
+
+#해당 명령어로 samtools를 다운로드 받고 ll명령어로 확인한다.
+
+tar 파일이기에 tar xvf로 압축해제한다.
+
+<pre><code>
+tar xvf samtools-1.18.tar.bz2
+</code></pre>
+
+압축해제 후 ll명령어로 다시 확인한다.
 
 압축해제 후 samtools 폴더에 들어가서 ./configure 명령어로 잘 설치되었는지 확인한다.
 
