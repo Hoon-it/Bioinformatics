@@ -26,6 +26,11 @@ gunzip hg38.chr21.fa.bwt.2bit.64.gz
 
 Tool 설치
 -
+
+'''python
+print("hello")
+'''
+
 1. BWA2
 
 mkdir명령어로 tool 디렉터리를 생성하고, BWA tool을 설치한다
