@@ -27,7 +27,7 @@ gunzip hg38.chr21.fa.bwt.2bit.64.gz
 Tool 설치
 -
 
-'''
+'''python
 
 print("hello")
 
