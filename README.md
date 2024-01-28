@@ -22,6 +22,7 @@ git clone https://github.com/KennethJHan/GenomeAnalysisTutorial.git
 
 상기의 git clone 명령어를 입력했을 때 -bash: git: command not found 문구가 뜨면
 git이 설치되지 않은 것이다.
+
 OS가 CentOS이면 아래의 명령어로 설치를 진행한다.
 <pre><code>
 yum install git
