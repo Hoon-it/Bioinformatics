@@ -47,6 +47,8 @@ mkdir명령어로 tool 디렉터리를 생성하고, BWA tool을 설치한다
 mkdir tool
 curl -L https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.0pre2/bwa-mem2-2.0pre2_x64-linux.tar.bz2  | tar jxf -
 </code></pre>
+"|" 파이프라인을 붙여 이어서 tar jxf 명령어로 데이터를 받아오는 동시에 압축해제를 진행한다.
+
 
 설치 후 ./bwa-mem2 명령어로 확인한다.
 
