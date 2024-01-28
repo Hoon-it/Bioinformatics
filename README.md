@@ -21,7 +21,8 @@ https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkum
 git clone https://github.com/KennethJHan/GenomeAnalysisTutorial.git
 
 상기의 git clone 명령어를 입력했을 때 -bash: git: command not found 문구가 뜨면
-git이 설치되지 않은 것이다 OS가 CentOS이면 아래의 명령어로 설치를 진행한다.
+git이 설치되지 않은 것이다.
+OS가 CentOS이면 아래의 명령어로 설치를 진행한다.
 <pre><code>
 yum install git
 </code></pre>
@@ -30,7 +31,8 @@ git 설치 이후 아래의 명령어로 다운로드 받는다
 git clone https://github.com/KennethJHan/GenomeAnalysisTutorial.git
 </code></pre>
 
-/GenomeAnalysisTutorial/resource/reference 경로에 들어가서 gz압축파일을 푼다
+/GenomeAnalysisTutorial/resource/reference 경로에 들어가서 gz압축파일을 푼다.
+
 gunzip hg38.chr21.fa.bwt.2bit.64.gz
 
 Tool 설치
