@@ -197,7 +197,13 @@ $SAMTOOLS markdup sample.fixmate.sorted.bam sample.markdup.bam
 
 $SAMTOOLS view -h sample.markdup.bam | less -S
 
-@HD, @SQ, @RG : 헤더      SRR1518~.1609941 : 리드  .1609941 : 리드      리드이름 우측 숫자(SAM flag) : 129,65,81...
+@HD, @SQ, @RG : 헤더
+
+SRR1518~.1609941 : 리드
+
+.1609941 : 리드
+
+리드이름 우측 숫자(SAM flag) : 129,65,81...
 
 ![markdup bam 파일](https://github.com/Hoon-it/Bioinformatics/assets/69448218/4302a064-63d2-4e5e-9b22-4acef8f0381e)
 
