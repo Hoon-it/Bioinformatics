@@ -197,15 +197,13 @@ $SAMTOOLS markdup sample.fixmate.sorted.bam sample.markdup.bam
 
 $SAMTOOLS view -h sample.markdup.bam | less -S
 
+![markdup bam 파일](https://github.com/Hoon-it/Bioinformatics/assets/69448218/4302a064-63d2-4e5e-9b22-4acef8f0381e)
+
 @HD, @SQ, @RG : 헤더
 
 SRR1518~.1609941 : 리드
 
-.1609941 : 리드
-
 리드이름 우측 숫자(SAM flag) : 129,65,81...
-
-![markdup bam 파일](https://github.com/Hoon-it/Bioinformatics/assets/69448218/4302a064-63d2-4e5e-9b22-4acef8f0381e)
 
 SAM flag 홈페이지에 접속해서 숫자를 입력하면 리드에 대한 정보를 알 수 있다.
 
