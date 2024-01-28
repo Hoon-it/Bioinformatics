@@ -130,6 +130,8 @@ fastq.gz의 전체 라인 개수 확인 방법
 
 fastq.gz 파일 보는 방법
 -
+cd GenomeAnalysisTutorial/data/ 로 이동한다
+
 zless -S sample_1.fastq.gz
 
 ![zless -S 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/16cb8190-c66e-47bc-ba11-aea341269220)
