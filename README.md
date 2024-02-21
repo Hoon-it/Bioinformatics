@@ -16,7 +16,9 @@ https://www.youtube.com/watch?v=6GJ3GqkUK94&list=PL_4hJwdNSJ28pEXoHafBAW8m0mSkum
 
 준비하기
 -
-필요한 데이터는 git clone 명령어로 아래의 git Repository에서 다운로드 받는다
+필요한 데이터는 git clone 명령어로 아래의 git Repository에서 다운로드 받는다.
+
+***데이터를 다운 받기 전 다운 받는 경로는 유저를 새로 생성해서 /home/user    <- 특정 user 디렉토리에 다운받는다.
 
 git clone https://github.com/KennethJHan/GenomeAnalysisTutorial.git
 
