@@ -25,7 +25,7 @@ git이 설치되지 않은 것이다.
 
 OS가 CentOS이면 아래의 명령어로 설치를 진행한다.
 <pre><code>
-yum install git
+yum -y install git
 </code></pre>
 git 설치 이후 아래의 명령어로 다운로드 받는다 
 <pre><code>
@@ -50,7 +50,9 @@ curl -L https://github.com/bwa-mem2/bwa-mem2/releases/download/v2.0pre2/bwa-mem2
 "|" 파이프라인을 붙여 이어서 tar jxf 명령어로 데이터를 받아오는 동시에 압축해제를 진행한다.
 
 가끔 "tar (grandchild): bzip2: Cannot exec: No such file or directory" 해당 현상이 발생하는데
-bzip2를 설치해주면 된다. yum install -y bzip2
+bzip2를 설치해주면 된다. 
+
+yum install -y bzip2
 
 설치 후 bwa-mem2-2.0pre2_x64-linux/ 로 이동해서 ./bwa-mem2 명령어로 확인한다.
 
