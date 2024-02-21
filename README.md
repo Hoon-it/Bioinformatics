@@ -100,7 +100,7 @@ tar xvf samtools-1.18.tar.bz2
 
 ![samtools 설치 마무리 후 확인 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/d2ba0ad7-3a56-4ef8-ad0d-6e9bbc48725e)
 
-GATK4 설치
+3. GATK4 설치
 
 tool 디렉토리에서 아래의 명령어를 실행한다.
 
@@ -109,6 +109,8 @@ wget https://github.com/broadinstitute/gatk/releases/download/4.2.0.0/gatk-4.2.0
 다운받은 후 ll명령어로 설치된 파일 확인 후 아래의 명령어로 압축해제한다.
 
 unzip gatk-4.2.0.0.zip
+
+실행하기 위해 압축해제 한 디렉토리로 이동해서 java -jar gatk-package-4.2.0.0-local.jar 를 실행한다.
 
 BAM 파일 보는 명령어
 -
