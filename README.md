@@ -60,7 +60,7 @@ yum install -y bzip2
 
 ![bwa-mem2 설치 후 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/d1b787a8-2868-410b-89e4-f77d09b20b9e)
 
-2. samtools 설치
+**2. samtools 설치**
 
 구글에 samtools를 검색하고 보이는 첫번째 링크를 클릭하고 우측 상단에 다운로드 클릭하면 보이는 Downloads를 클릭한다
 
@@ -100,7 +100,7 @@ tar xvf samtools-1.18.tar.bz2
 
 ![samtools 설치 마무리 후 확인 명령어](https://github.com/Hoon-it/Bioinformatics/assets/69448218/d2ba0ad7-3a56-4ef8-ad0d-6e9bbc48725e)
 
-3. GATK4 설치
+**3. GATK4 설치**
 
 tool 디렉토리에서 아래의 명령어를 실행한다.
 
